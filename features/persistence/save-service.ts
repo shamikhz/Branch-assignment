@@ -607,41 +607,50 @@ export const SaveService = {
   },
 
   /**
-   * Resets player progress (active run & completed runs) without removing offline downloads or preferences.
+   * Completely resets and clears all data (active runs, completed runs, offline packs, settings, and caches).
    */
   async resetPlayerProgress(): Promise<void> {
+    await this.clearAllData();
+  },
+
+  /**
+   * Completely clears and resets all data across IndexedDB, localStorage, sessionStorage, and caches.
+   */
+  async clearAllData(): Promise<void> {
     await this.clearActiveRun();
     if (isIndexedDBSupported()) {
       try {
         const db = await openDatabase();
-        const tx = db.transaction([STORE_ACTIVE_RUN, STORE_COMPLETED_RUNS], 'readwrite');
+        const tx = db.transaction(
+          [STORE_ACTIVE_RUN, STORE_COMPLETED_RUNS, STORE_SETTINGS, STORE_OFFLINE_EPISODES],
+          'readwrite'
+        );
         tx.objectStore(STORE_ACTIVE_RUN).clear();
         tx.objectStore(STORE_COMPLETED_RUNS).clear();
+        tx.objectStore(STORE_SETTINGS).clear();
+        tx.objectStore(STORE_OFFLINE_EPISODES).clear();
         await new Promise<void>((res, rej) => {
           tx.oncomplete = () => res();
           tx.onerror = () => rej(tx.error);
         });
       } catch (e) {
-        console.warn('Failed to clear completed runs store', e);
+        console.warn('Failed to clear IndexedDB stores', e);
       }
+      try {
+        indexedDB.deleteDatabase(DB_NAME);
+      } catch {}
     }
     if (typeof window !== 'undefined') {
       try {
-        const keysToRemove: string[] = [];
-        for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i);
-          if (
-            key &&
-            (key.startsWith('detective_active_run') ||
-              key.startsWith('detective_completed_runs') ||
-              key === 'detective_active_run' ||
-              key === 'detective_completed_runs')
-          ) {
-            keysToRemove.push(key);
-          }
-        }
-        keysToRemove.forEach((k) => localStorage.removeItem(k));
+        localStorage.clear();
+        sessionStorage.clear();
       } catch {}
+      if ('caches' in window) {
+        try {
+          const cacheKeys = await caches.keys();
+          await Promise.all(cacheKeys.map((k) => caches.delete(k)));
+        } catch {}
+      }
     }
   },
 

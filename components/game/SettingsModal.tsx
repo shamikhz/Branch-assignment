@@ -76,19 +76,23 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   };
 
   const handleResetProgressOnly = async () => {
-    if (window.confirm('Reset all investigation progress and completed case archives? Your settings and offline downloads will be preserved.')) {
+    if (
+      window.confirm(
+        'Are you sure you want to reset all game progress? All active games, completed stories, saved data, and settings will be completely cleared.'
+      )
+    ) {
       soundEffects.playStampThud();
-      await SaveService.resetPlayerProgress();
+      await SaveService.clearAllData();
       if (onResetProgress) {
         onResetProgress();
       }
-      setImportStatus('Investigation progress reset.');
+      setImportStatus('All data has been completely reset and cleared.');
       await refreshStorage();
       setTimeout(() => {
         if (typeof window !== 'undefined') {
           window.location.reload();
         }
-      }, 500);
+      }, 300);
     }
   };
 
@@ -517,10 +521,10 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                   justifyContent: 'center',
                   gap: '6px',
                 }}
-                title="Resets only active and completed cases; preserves offline downloads & settings"
+                title="Completely resets and clears all game progress, completed stories, and saved data"
               >
                 <RotateCcw size={14} />
-                <span>Reset Progress</span>
+                <span>Reset All Progress</span>
               </button>
             </div>
 
