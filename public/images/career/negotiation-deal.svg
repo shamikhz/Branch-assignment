@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <rect width="800" height="450" fill="#131722"/>
+    <g transform="translate(80, 60)">
+      <!-- Contract / Terms Board -->
+      <rect x="0" y="0" width="640" height="320" rx="10" fill="#1c2333" stroke="#d4a359" stroke-width="2"/>
+      <text x="30" y="45" fill="#d4a359" font-family="sans-serif" font-weight="bold" font-size="18">ENTERPRISE SCOPE &amp; VALUE MATRIX (#Negotiation)</text>
+      <line x1="30" y1="65" x2="610" y2="65" stroke="#334155"/>
+      
+      <!-- Trust Meter -->
+      <rect x="30" y="85" width="280" height="80" rx="6" fill="#0f172a" stroke="#3b82f6"/>
+      <text x="45" y="110" fill="#94a3b8" font-family="sans-serif" font-size="12">CLIENT TRUST INDEX</text>
+      <text x="45" y="145" fill="#38bdf8" font-family="sans-serif" font-size="26" font-weight="bold">88 / 100 (HIGH)</text>
+
+      <!-- Margin Meter -->
+      <rect x="330" y="85" width="280" height="80" rx="6" fill="#0f172a" stroke="#10b981"/>
+      <text x="345" y="110" fill="#94a3b8" font-family="sans-serif" font-size="12">DELIVERY GROSS MARGIN</text>
+      <text x="345" y="145" fill="#34d399" font-family="sans-serif" font-size="26" font-weight="bold">42% (PROTECTED)</text>
+
+      <!-- Key Tradeoffs -->
+      <rect x="30" y="185" width="580" height="105" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="45" y="215" fill="#e2e8f0" font-family="sans-serif" font-size="13">• Concession Traded: Dedicated Slack channel for +12 month contract lock</text>
+      <text x="45" y="240" fill="#e2e8f0" font-family="sans-serif" font-size="13">• Refused: Custom feature roadmap guarantees without discovery phase</text>
+      <text x="45" y="265" fill="#10b981" font-family="sans-serif" font-size="13" font-weight="bold">✓ Win-Win Outcome: Realistic delivery milestones with zero false promises</text>
+    </g>
+  </svg>

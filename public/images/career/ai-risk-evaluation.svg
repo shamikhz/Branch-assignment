@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <rect width="800" height="450" fill="#090d16"/>
+    <!-- Neural Net / Model Evaluation Nodes -->
+    <g stroke="#3b82f6" stroke-width="1.5" opacity="0.5">
+      <line x1="150" y1="120" x2="300" y2="180"/>
+      <line x1="150" y1="220" x2="300" y2="180"/>
+      <line x1="150" y1="320" x2="300" y2="280"/>
+      <line x1="300" y1="180" x2="480" y2="220"/>
+      <line x1="300" y1="280" x2="480" y2="220"/>
+      <line x1="480" y1="220" x2="650" y2="180"/>
+    </g>
+    <!-- Nodes -->
+    <circle cx="150" cy="120" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="150" cy="220" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="150" cy="320" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+    <circle cx="300" cy="180" r="18" fill="#1e3a8a" stroke="#60a5fa" stroke-width="3"/>
+    <circle cx="300" cy="280" r="18" fill="#1e3a8a" stroke="#60a5fa" stroke-width="3"/>
+    <circle cx="480" cy="220" r="22" fill="#701a75" stroke="#f472b6" stroke-width="3"/>
+    <!-- Evaluation Warning Card -->
+    <rect x="420" y="80" width="310" height="150" rx="10" fill="#18181b" stroke="#ef4444" stroke-width="2"/>
+    <text x="440" y="115" fill="#f87171" font-family="sans-serif" font-weight="bold" font-size="14">⚠️ EVALUATION AUDIT</text>
+    <text x="440" y="145" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">Hallucination Rate: 8.7%</text>
+    <text x="440" y="175" fill="#fca5a5" font-family="sans-serif" font-size="12">Prompt Injection Vulnerability in RAG context</text>
+    <text x="440" y="200" fill="#94a3b8" font-family="sans-serif" font-size="12">Verdict: Block autonomous production release</text>
+  </svg>

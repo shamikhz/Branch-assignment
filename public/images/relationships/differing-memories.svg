@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="dmg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#19232d" />
+      <stop offset="100%" stop-color="#1a2d3b" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#dmg)" />
+  <!-- Overlapping Thought Bubbles / Perspectives -->
+  <circle cx="78" cy="98" r="38" fill="rgba(56, 189, 248, 0.2)" stroke="#38bdf8" stroke-width="2" />
+  <circle cx="122" cy="98" r="38" fill="rgba(251, 146, 60, 0.2)" stroke="#fb923c" stroke-width="2" />
+  <!-- Overlapping Venn Center -->
+  <path d="M100 66a38 38 0 0 1 0 64 38 38 0 0 1 0-64z" fill="rgba(255,255,255,0.15)" stroke="#fff" stroke-width="1" />
+  <!-- Dialogue Glyphs -->
+  <text x="74" y="103" font-family="sans-serif" font-size="16" font-weight="bold" fill="#7dd3fc" text-anchor="middle">"A"</text>
+  <text x="126" y="103" font-family="sans-serif" font-size="16" font-weight="bold" fill="#fdba74" text-anchor="middle">"B"</text>
+</svg>

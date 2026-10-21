@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="gq1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141726" />
+      <stop offset="100%" stop-color="#1b233a" />
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#gq1)" />
+  <!-- Social Group Circle -->
+  <circle cx="82" cy="100" r="44" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.6" />
+  <!-- Group Members -->
+  <circle cx="60" cy="80" r="12" fill="url(#circleGrad)" />
+  <circle cx="104" cy="80" r="12" fill="url(#circleGrad)" />
+  <circle cx="82" cy="124" r="12" fill="url(#circleGrad)" />
+  <!-- Connecting threads -->
+  <path d="M60 80L104 80L82 124Z" stroke="#93c5fd" stroke-width="1.5" stroke-opacity="0.4" fill="rgba(59,130,246,0.1)" />
+  <!-- Excluded Silhouette on the outside -->
+  <circle cx="152" cy="100" r="14" fill="#1e293b" stroke="#f43f5e" stroke-width="2" />
+  <path d="M136 100h-16" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3 3" />
+  <circle cx="120" cy="100" r="3" fill="#f43f5e" />
+</svg>

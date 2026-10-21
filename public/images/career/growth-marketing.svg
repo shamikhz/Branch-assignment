@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <rect width="800" height="450" fill="#111827"/>
+    <!-- Funnel Visualization -->
+    <g transform="translate(100, 50)">
+      <polygon points="0,20 600,20 480,100 120,100" fill="#3b82f6" opacity="0.85"/>
+      <text x="230" y="65" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="16">TOP FUNNEL: 45,000 VISITS</text>
+      
+      <polygon points="120,110 480,110 400,190 200,190" fill="#6366f1" opacity="0.85"/>
+      <text x="240" y="155" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="15">CONSIDERATION: 8,200 LEADS</text>
+
+      <polygon points="200,200 400,200 340,280 260,280" fill="#8b5cf6" opacity="0.85"/>
+      <text x="255" y="245" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="14">OPPORTUNITIES: 1,450</text>
+
+      <polygon points="260,290 340,290 320,350 280,350" fill="#10b981" opacity="0.95"/>
+      <text x="268" y="325" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13">CONVERTED: 420</text>
+    </g>
+  </svg>

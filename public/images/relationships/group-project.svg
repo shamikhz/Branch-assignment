@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="gpg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2028" />
+      <stop offset="100%" stop-color="#222b38" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#gpg)" />
+  <!-- Puzzle Grid / Team Collaboration Frame -->
+  <rect x="48" y="48" width="104" height="104" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+  <!-- 3 Active Puzzle Pieces filled -->
+  <rect x="54" y="54" width="44" height="44" rx="4" fill="#0284c7" />
+  <rect x="102" y="54" width="44" height="44" rx="4" fill="#0369a1" />
+  <rect x="54" y="102" width="44" height="44" rx="4" fill="#0284c7" />
+  <!-- Missing / Vanished Contributor Slot (Bottom Right) -->
+  <rect x="102" y="102" width="44" height="44" rx="4" fill="#1e293b" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4 3" />
+  <!-- Ghost Question mark -->
+  <text x="124" y="130" font-family="sans-serif" font-size="20" font-weight="bold" fill="#f43f5e" text-anchor="middle">?</text>
+</svg>

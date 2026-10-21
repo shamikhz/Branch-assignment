@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <rect width="800" height="450" fill="#0b1329"/>
+    <g transform="translate(80, 50)">
+      <rect x="0" y="0" width="640" height="340" rx="10" fill="#13203f" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="30" y="40" fill="#38bdf8" font-family="sans-serif" font-weight="bold" font-size="16">COGNITIVE BIAS EVALUATION &amp; DECISION AUDIT</text>
+      <line x1="30" y1="58" x2="610" y2="58" stroke="#334155"/>
+
+      <!-- Bias Warning 1 -->
+      <rect x="30" y="80" width="275" height="100" rx="6" fill="#1e293b" stroke="#ef4444"/>
+      <text x="45" y="108" fill="#f87171" font-family="sans-serif" font-weight="bold" font-size="13">SUNK COST FALLACY</text>
+      <text x="45" y="132" fill="#cbd5e1" font-family="sans-serif" font-size="11">"We spent $80k, so we must continue."</text>
+      <text x="45" y="155" fill="#ef4444" font-family="sans-serif" font-size="11" font-weight="bold">Action: Ignore past sunk investment</text>
+
+      <!-- Bias Warning 2 -->
+      <rect x="335" y="80" width="275" height="100" rx="6" fill="#1e293b" stroke="#f59e0b"/>
+      <text x="350" y="108" fill="#fbbf24" font-family="sans-serif" font-weight="bold" font-size="13">CONFIRMATION BIAS</text>
+      <text x="350" y="132" fill="#cbd5e1" font-family="sans-serif" font-size="11">Only cherry-picking positive feedback</text>
+      <text x="350" y="155" fill="#f59e0b" font-family="sans-serif" font-size="11" font-weight="bold">Action: Actively seek disconfirming data</text>
+
+      <!-- Rational Matrix -->
+      <rect x="30" y="200" width="580" height="110" rx="6" fill="#022c22" stroke="#10b981"/>
+      <text x="45" y="230" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="14">EMPIRICAL DECISION OUTCOME</text>
+      <text x="45" y="258" fill="#d1fae5" font-family="sans-serif" font-size="12">• Reversible vs Irreversible (Type 1 vs Type 2) decision categorisation applied</text>
+      <text x="45" y="282" fill="#d1fae5" font-family="sans-serif" font-size="12">• Independent pilot conducted before committing irreversible capital</text>
+    </g>
+  </svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="osa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181e28" />
+      <stop offset="100%" stop-color="#1f2a3a" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#osa)" />
+  <!-- Fulcrum and Seesaw -->
+  <path d="M100 148l-14 22h28z" fill="#334155" stroke="#64748b" stroke-width="1.5" />
+  <!-- Tilted beam (heavy on left) -->
+  <path d="M46 112l108 34" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" />
+  <!-- Left Side: Overfilled Heavy Emotional Burden -->
+  <circle cx="56" cy="100" r="18" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <path d="M50 96h12v10h-12z" fill="#0284c7" />
+  <!-- Right Side: Starved / Drained Empty Cup -->
+  <circle cx="144" cy="140" r="12" fill="#0f172a" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3 2" />
+</svg>

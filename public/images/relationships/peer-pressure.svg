@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="ppg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24181a" />
+      <stop offset="100%" stop-color="#361a22" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#ppg)" />
+  <!-- Central Guardian Shield (Personal Boundaries) -->
+  <path d="M100 52l32 14v32c0 26-22 42-32 48-10-6-32-22-32-48v-32z" fill="#4c0519" stroke="#fb7185" stroke-width="2.5" />
+  <circle cx="100" cy="94" r="8" fill="#f43f5e" />
+  <!-- Converging Inward Pressure Arrows -->
+  <path d="M42 94h18m-6-6l6 6-6 6" stroke="#fca5a5" stroke-width="2" stroke-linecap="round" />
+  <path d="M158 94h-18m6-6l-6 6 6 6" stroke="#fca5a5" stroke-width="2" stroke-linecap="round" />
+  <path d="M100 36v12m-6-6l6 6 6-6" stroke="#fca5a5" stroke-width="2" stroke-linecap="round" />
+</svg>

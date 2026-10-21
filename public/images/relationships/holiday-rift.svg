@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="hrg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241a1a" />
+      <stop offset="100%" stop-color="#331e21" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#hrg)" />
+  <!-- Dining Table -->
+  <ellipse cx="100" cy="106" rx="66" ry="26" fill="#1f1416" stroke="#f87171" stroke-width="2" />
+  <!-- Chasm / Rift dividing the table -->
+  <path d="M100 76l-4 30 6 26" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="3 3" />
+  <!-- Left Side Family Member -->
+  <circle cx="56" cy="100" r="12" fill="#7f1d1d" stroke="#fca5a5" stroke-width="1.5" />
+  <!-- Right Side Family Member -->
+  <circle cx="144" cy="100" r="12" fill="#7f1d1d" stroke="#fca5a5" stroke-width="1.5" />
+  <!-- Neutral Player Bridge in Center -->
+  <circle cx="100" cy="144" r="10" fill="#f59e0b" stroke="#fef3c7" stroke-width="2" />
+</svg>

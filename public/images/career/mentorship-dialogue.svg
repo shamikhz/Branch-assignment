@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <rect width="800" height="450" fill="#121826"/>
+    <g transform="translate(80, 50)">
+      <rect x="0" y="0" width="640" height="340" rx="10" fill="#1a2234" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="30" y="40" fill="#93c5fd" font-family="sans-serif" font-weight="bold" font-size="16">CONSTRUCTIVE FEEDBACK &amp; MENTORSHIP FRAMEWORK (#Mentorship)</text>
+      <line x1="30" y1="58" x2="610" y2="58" stroke="#334155"/>
+      
+      <!-- Step 1: Situation -->
+      <rect x="30" y="80" width="175" height="110" rx="6" fill="#0f172a" stroke="#3b82f6"/>
+      <text x="45" y="105" fill="#60a5fa" font-family="sans-serif" font-weight="bold" font-size="12">1. SITUATION</text>
+      <text x="45" y="130" fill="#cbd5e1" font-family="sans-serif" font-size="11">Specific context &amp; time</text>
+      <text x="45" y="150" fill="#94a3b8" font-family="sans-serif" font-size="11">No generalizations</text>
+
+      <!-- Step 2: Behavior -->
+      <rect x="230" y="80" width="175" height="110" rx="6" fill="#0f172a" stroke="#8b5cf6"/>
+      <text x="245" y="105" fill="#a78bfa" font-family="sans-serif" font-weight="bold" font-size="12">2. BEHAVIOR</text>
+      <text x="245" y="130" fill="#cbd5e1" font-family="sans-serif" font-size="11">Observable facts</text>
+      <text x="245" y="150" fill="#94a3b8" font-family="sans-serif" font-size="11">Neutral description</text>
+
+      <!-- Step 3: Impact -->
+      <rect x="430" y="80" width="180" height="110" rx="6" fill="#0f172a" stroke="#ec4899"/>
+      <text x="445" y="105" fill="#f472b6" font-family="sans-serif" font-weight="bold" font-size="12">3. IMPACT</text>
+      <text x="445" y="130" fill="#cbd5e1" font-family="sans-serif" font-size="11">Direct consequences</text>
+      <text x="445" y="150" fill="#94a3b8" font-family="sans-serif" font-size="11">Team/project effect</text>
+
+      <!-- Growth Plan -->
+      <rect x="30" y="210" width="580" height="100" rx="6" fill="#052e16" stroke="#10b981"/>
+      <text x="45" y="238" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="14">COLLABORATIVE DEVELOPMENT PLAN</text>
+      <text x="45" y="265" fill="#d1fae5" font-family="sans-serif" font-size="12">• Bi-weekly code review pairing &amp; architectural mentorship</text>
+      <text x="45" y="288" fill="#d1fae5" font-family="sans-serif" font-size="12">• Clear measurable milestones: independently ship milestone v2 by sprint 4</text>
+    </g>
+  </svg>

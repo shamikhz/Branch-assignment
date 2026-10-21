@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="leg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#261b17" />
+      <stop offset="100%" stop-color="#3d281f" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#leg)" />
+  <!-- Family Pedestal / Tree trunk -->
+  <path d="M100 156v-50M100 106c-18-12-32-26-36-46M100 106c18-12 32-26 36-46M100 106v-34" stroke="#fb923c" stroke-width="3" stroke-linecap="round" />
+  <!-- Heirloom Seal -->
+  <circle cx="100" cy="52" r="18" fill="#431407" stroke="#fdba74" stroke-width="2" />
+  <text x="100" y="58" font-family="serif" font-size="16" font-weight="bold" fill="#fed7aa" text-anchor="middle">IV</text>
+  <!-- Player's Divergent Path -->
+  <path d="M64 60c-14 8-22 22-24 40" stroke="#f43f5e" stroke-width="2.5" stroke-dasharray="4 3" />
+  <circle cx="40" cy="102" r="6" fill="#f43f5e" />
+</svg>

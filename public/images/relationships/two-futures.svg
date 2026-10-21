@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="tfg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142129" />
+      <stop offset="100%" stop-color="#13333b" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#tfg)" />
+  <!-- Branching Path -->
+  <path d="M100 166v-46c0-18-24-28-44-42M100 120c0-18 24-28 44-42" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" />
+  <!-- Path Left: Local Studio / Roots -->
+  <circle cx="56" cy="78" r="16" fill="#134e4a" stroke="#2dd4bf" stroke-width="2" />
+  <path d="M50 82l6-8 6 8h-12z" fill="#5eead4" />
+  <rect x="54" y="82" width="4" height="4" fill="#042f2e" />
+  <!-- Path Right: Flight / Overseas Fellowship -->
+  <circle cx="144" cy="78" r="16" fill="#134e4a" stroke="#2dd4bf" stroke-width="2" />
+  <path d="M140 76l10-4-4 10-2-3-3 3-1-6z" fill="#5eead4" />
+  <!-- Convergence Node -->
+  <circle cx="100" cy="120" r="6" fill="#f0fdfa" />
+</svg>

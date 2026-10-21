@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="atg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171e2e" />
+      <stop offset="100%" stop-color="#1a1c38" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#atg)" />
+  <!-- Smartphone Screen -->
+  <rect x="58" y="34" width="84" height="136" rx="14" fill="#0f172a" stroke="#818cf8" stroke-width="2.5" />
+  <!-- Screen top notch -->
+  <rect x="85" y="40" width="30" height="4" rx="2" fill="#334155" />
+  <!-- Incoming notification pop-up -->
+  <rect x="66" y="58" width="68" height="38" rx="8" fill="#312e81" stroke="#a5b4fc" stroke-width="1.5" />
+  <circle cx="76" cy="72" r="5" fill="#f43f5e" />
+  <rect x="85" y="68" width="40" height="4" rx="2" fill="#c7d2fe" />
+  <rect x="85" y="76" width="28" height="3" rx="1.5" fill="#818cf8" />
+  <!-- Question / Doubt Heartbeat -->
+  <circle cx="100" cy="125" r="16" fill="none" stroke="#f43f5e" stroke-width="2" stroke-dasharray="3 3" />
+  <path d="M94 125h4l3-6 4 12 3-6h4" stroke="#f43f5e" stroke-width="2" stroke-linecap="round" />
+</svg>
